@@ -28,7 +28,7 @@ Ce projet a pour objectif d’analyser les performances d’un centre d’appels
 
 ---
 
-## 🏗️ Modèle de données
+##  Modèle de données
 
 ### 🔷 Architecture en étoile
 
