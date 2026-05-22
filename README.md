@@ -82,7 +82,7 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 👥 Analyse des performances des équipes
 
-![Vue du dashboard](images/Team_Performance.png)
+![Analyse des performances des équipes](images/Team_Performance.png)
 
 ### 🏆 Meilleurs résultats :
 
@@ -100,7 +100,7 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 ## 💰 Analyse financière
 
 
-![Vue du dashboard](images/Financial_Performance_Overview.png)
+![Analyse financière](images/Financial_Performance_Overview.png)
 
 ### 📌 Revenus totaux :
 - 10,79M € générés sur la période  
