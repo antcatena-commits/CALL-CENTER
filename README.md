@@ -50,6 +50,8 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 📊 Vue du dashboard
 
+![Vue du dashboard](images/Customer Service overview.png)
+
 ### 📌 Indicateurs globaux (vue executive)
 
 - 88,22% des appels respectent le SLA  
