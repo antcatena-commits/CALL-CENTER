@@ -99,6 +99,9 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 💰 Analyse financière
 
+
+![Vue du dashboard](images/Financial_Performance_Overview.png)
+
 ### 📌 Revenus totaux :
 - 10,79M € générés sur la période  
 
