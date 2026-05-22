@@ -135,9 +135,21 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 📊 Metrics language DAX
 
+⏱️ Durée moyenne des appels
+Cette mesure calcule la durée moyenne d’un appel traité.
+Elle permet d’évaluer l’efficacité opérationnelle des agents et d’identifier les périodes où les appels sont plus longs (complexité, surcharge, manque de formation…).
+
 ![Metrics language DAX](images/KPI_AverageCallDurationMinutes_CustomerServiceOverview.png)
 
+🎯 Pourcentage d’appels dans le SLA
+Cette mesure calcule la part des appels respectant le SLA, c’est‑à‑dire le délai maximal de prise en charge.
+C’est l’indicateur central de la qualité de service : un SLA faible signale un manque de ressources ou une mauvaise organisation.
+
 ![Metrics language DAX](images/KPI_PercentWithinSLA_CustomersServiceOverview.png)
+
+💰 Revenus générés par les appels
+Cette mesure calcule les revenus totaux en fonction du type d’appel et des tarifs associés.
+Elle permet d’identifier les activités les plus rentables (ex : Tech Support) et de comprendre comment les performances opérationnelles influencent directement les résultats financiers.
 
 ![Metrics language DAX](images/KPI_RevenueSUMX_FinancialPerformanceOverview.png)
 
