@@ -147,7 +147,7 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 ## 👨‍💻 Auteur
 
 **Antonio CATENA**  
-Business Analyst / Data Analyst  
+Business Analyst
 
 ---
 
