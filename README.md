@@ -50,7 +50,7 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 📊 Vue du dashboard
 
-![Vue du dashboard](images/Customer Service overview.png)
+![Vue du dashboard](images/Customer_Service_overview.png)
 
 ### 📌 Indicateurs globaux (vue executive)
 
