@@ -82,6 +82,8 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ## 👥 Analyse des performances des équipes
 
+![Vue du dashboard](images/Team_Performance.png)
+
 ### 🏆 Meilleurs résultats :
 
 - **Meilleur manager : Elsie Taplin**  
