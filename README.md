@@ -137,6 +137,10 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 
 ![Metrics language DAX](images/KPI_AverageCallDurationMinutes_CustomerServiceOverview.png)
 
+![Metrics language DAX](images/KPI_PercentWithinSLA_CustomersServiceOverview.png)
+
+![Metrics language DAX](images/KPI_RevenueSUMX_FinancialPerformanceOverview.png)
+
 
 ---
 
