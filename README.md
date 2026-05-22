@@ -131,7 +131,12 @@ Un modèle en étoile a été conçu afin d’optimiser les performances et simp
 - Spokane est le site le moins performant  
 - Les revenus sont en croissance constante  
 - Le Tech Support est le levier principal de revenus  
-- Les performances sont très dépendantes des top agents  
+- Les performances sont très dépendantes des top agents
+
+## 📊 Metrics language DAX
+
+![Metrics language DAX](images/KPI_AverageCallDurationMinutes_CustomerServiceOverview.png)
+
 
 ---
 
