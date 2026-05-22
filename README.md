@@ -1,139 +1,164 @@
-📞 Analyse du Call Center (2018–2021)
-Projet Data complet utilisant Power BI et un modèle en étoile pour analyser la performance d’un centre d’appels entre 2018 et 2021 : SLA, volume d’appels, revenus, performance des équipes et tendances temporelles.
+# 📞 Analyse de la Performance d’un Call Center (2018–2021)
 
-🎯 Objectifs du projet
-Analyser la performance globale du centre d’appels
+> 📊 Projet de Business Intelligence réalisé avec **Power BI**, visant à analyser la performance globale d’un centre d’appels sur 4 ans (SLA, revenus, équipes, volume d’activité et performance opérationnelle).
 
-Identifier les sites les plus performants
+---
 
-Étudier la conformité SLA (Service Level Agreement)
+## 🧠 Résumé du projet
 
-Comprendre les tendances mensuelles et annuelles
+Ce projet a pour objectif d’analyser les performances d’un centre d’appels entre 2018 et 2021 afin de :
 
-Mesurer la performance des managers et employés
+- Évaluer la qualité de service via le SLA  
+- Analyser les revenus générés par activité  
+- Étudier la performance des équipes (agents & managers)  
+- Identifier les tendances de volume d’appels  
+- Comparer les performances des différents sites  
 
-Analyser les revenus par site, type d’appel et année
+👉 L’objectif final est de transformer les données opérationnelles en **indicateurs décisionnels clairs pour le management**.
 
-Construire un dashboard interactif pour faciliter la prise de décision
+---
 
-📊 1. Modèle de données (Power BI)
-Modèle en étoile
-Le modèle en étoile permet d’optimiser les performances et de faciliter l’analyse.
-La table de faits Call Center Data 2018–2021 est reliée à plusieurs dimensions :
+## 🛠️ Stack technique
 
-Dim_Date : calendrier complet
+- 📊 Power BI (visualisation & dashboarding)
+- 🧮 DAX (mesures et KPIs)
+- 🧱 Modélisation en étoile (Star Schema)
+- 📅 Power Query (transformation des données)
+- 📈 Analyse de données & Business Intelligence
 
-Dim_Employees : employés et managers
+---
 
-Dim_CallCharges : prix par type d’appel
+## 🏗️ Modèle de données
 
-Dim_CallTypes : description des types d’appel
+### 🔷 Architecture en étoile
 
-Dim_SLA : conformité SLA
+Un modèle en étoile a été conçu afin d’optimiser les performances et simplifier l’analyse dans Power BI.
 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !]
+### 📌 Table de faits :
+- Données principales du Call Center (2018–2021)
 
-📈 2. Dashboard Power BI
-Vue générale — Customer Service Overview
-Ce dashboard présente les indicateurs clés du service client :
+### 📌 Tables de dimensions :
+- **Dim_Date** → Analyse temporelle (mois, année, saisonnalité)
+- **Dim_Employees** → Informations sur les agents et managers  
+- **Dim_CallTypes** → Types d’appels (support, billing, sales…)  
+- **Dim_CallCharges** → Structure des revenus  
+- **Dim_SLA** → Respect des objectifs de service  
 
-88,22% des appels traités dans le SLA
+👉 Ce modèle permet des analyses rapides, flexibles et scalables.
 
-132K appels au total
+---
 
-12,54 minutes de durée moyenne
+## 📊 Vue du dashboard
 
-Forte variation du volume d’appels selon les mois
+### 📌 Indicateurs globaux (vue executive)
 
-Jacksonville est le site le plus performant en volume traité
+- 88,22% des appels respectent le SLA  
+- 11,78% sont hors SLA  
+- 132K appels traités  
+- 12,54 min de durée moyenne d’appel  
+- Forte variation du volume selon les mois  
+- Jacksonville est le site le plus performant  
 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !]
+---
 
-Analyse des tendances mensuelles
-Les mois les plus chargés sont mars, juillet et décembre, avec plus de 11K appels.
-Les mois les plus calmes sont février et septembre.
+## 📅 Analyse des volumes d’appels
 
-Ces tendances permettent d’anticiper les besoins en effectifs.
+### 🔺 Périodes de forte activité :
+- Mars  
+- Juillet  
+- Décembre  
 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !]
+👉 Ces mois dépassent les 11 000 appels
 
-👥 3. Team Performance
-Ce dashboard met en avant la performance des équipes :
+### 🔻 Périodes plus faibles :
+- Février  
+- Septembre  
 
-Meilleur manager : Elsie Taplin
+👉 Ces résultats permettent d’optimiser la planification des équipes
 
-Meilleure employée : Noella Valentin
+---
 
-Top 10 employés par revenus générés
+## 👥 Analyse des performances des équipes
 
-Classement des managers par performance financière
+### 🏆 Meilleurs résultats :
 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !]
+- **Meilleur manager : Elsie Taplin**  
+- **Meilleure employée : Noella Valentin**
 
-💰 4. Financial Performance Overview
-Ce dashboard analyse les revenus générés par le centre d’appels :
+### 📊 Analyse :
 
-10,79M € de revenus totaux
+- Forte disparité entre les équipes  
+- Les meilleurs agents génèrent une part importante des revenus  
+- La performance des managers influence directement la qualité de service  
 
-81,84 € de revenu moyen par appel
+---
 
-Forte croissance annuelle :
+## 💰 Analyse financière
 
-2018 : 2,07M
+### 📌 Revenus totaux :
+- 10,79M € générés sur la période  
 
-2019 : 2,43M
+### 📈 Évolution des revenus :
 
-2020 : 2,85M
+- 2018 : 2,07M €  
+- 2019 : 2,43M €  
+- 2020 : 2,85M €  
+- 2021 : 3,44M €  
 
-2021 : 3,44M
+👉 On observe une croissance continue sur 4 ans
 
-Les types d’appel les plus rentables :
+### 📞 Revenus par type d’appel :
 
-Tech Support : 5,1M
+- Tech Support : 5,1M € (principal moteur de revenu)  
+- Billing : 3,4M €  
+- Sales : 2,3M €  
 
-Billing : 3,4M
+---
 
-Sales : 2,3M
+## 🧠 KPIs & insights principaux
 
-[Il semble que le résultat n’était pas sûr à afficher. Changeons un peu et essayons autre chose !]
+- Le SLA est globalement bon (88%) mais se dégrade lors des pics d’activité  
+- Jacksonville est le site le plus performant  
+- Spokane est le site le moins performant  
+- Les revenus sont en croissance constante  
+- Le Tech Support est le levier principal de revenus  
+- Les performances sont très dépendantes des top agents  
 
-🧠 5. KPIs & Insights
-SLA (Service Level Agreement)
-88% des appels sont traités dans le SLA
+---
 
-Jacksonville est le site le plus performant
+## 🚀 Recommandations
 
-Les pics d’appels entraînent une légère baisse de conformité
+- Renforcer les équipes lors des pics (mars, juillet, décembre)  
+- Analyser les méthodes des meilleurs managers et les standardiser  
+- Optimiser les scripts du **Tech Support**, principal générateur de revenus  
+- Former les équipes sous-performantes (ex : Spokane)  
+- Améliorer le suivi du SLA en période de forte activité  
 
-Performance des équipes
-Les managers les plus performants génèrent plus de 1,2M
+---
 
-Les meilleurs employés dépassent 180K de revenus
+## 📂 Ressources
 
-Les écarts entre sites sont significatifs
+- 📊 Dashboard Power BI → disponible sur demande  
+- 🧱 Modèle de données → disponible sur demande  
+- 📁 Dataset → non public  
 
-Revenus
-Croissance continue sur 4 ans
+---
 
-Tech Support est le type d’appel le plus rentable
+## 👨‍💻 Auteur
 
-Spokane génère moins de revenus que les autres sites
+**Antonio CATENA**  
+Business Analyst / Data Analyst  
 
-🧭 6. Recommandations
-Renforcer les équipes lors des mois à forte activité (mars, juillet, décembre)
+---
 
-Analyser les pratiques des meilleurs managers pour les appliquer aux autres équipes
+## 📌 Valeur du projet
 
-Optimiser les scripts d’appels Tech Support, car ils génèrent le plus de revenus
+Ce projet démontre ma capacité à :
 
-Former les équipes de Spokane pour réduire l’écart de performance
+- Transformer des données brutes en insights métiers  
+- Concevoir un modèle de données optimisé (star schema)  
+- Créer des dashboards Power BI orientés décision  
+- Identifier des leviers de performance opérationnelle  
+- Produire une analyse claire pour un usage managérial  
 
-Améliorer la gestion du SLA lors des pics d’activité
-
-📂 Ressources
-📊 Dashboard Power BI : disponible sur demande
-
-📁 Modèle de données : disponible sur demande
-
-👨‍💻 Auteur
-Antonio CATENA — Business Analyst / Data Analyst
+---
