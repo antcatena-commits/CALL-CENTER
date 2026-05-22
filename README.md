@@ -32,6 +32,8 @@ Ce projet a pour objectif d’analyser les performances d’un centre d’appels
 
 ### 🔷 Architecture en étoile
 
+![Architecture en étoile](images/modèle_étoile.png)
+
 Un modèle en étoile a été conçu afin d’optimiser les performances et simplifier l’analyse dans Power BI.
 
 ### 📌 Table de faits :
