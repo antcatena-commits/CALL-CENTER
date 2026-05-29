@@ -1,6 +1,6 @@
 # 📞 Analyse de la Performance d’un Call Center (2018–2021)
 
-> 📊 Projet de Business Intelligence réalisé avec **Power BI**, visant à analyser la performance globale d’un centre d’appels sur 4 ans (SLA, revenus, équipes, volume d’activité et performance opérationnelle).
+# 📊 Projet de Business Intelligence réalisé avec **Power BI**, visant à analyser la performance globale d’un centre d’appels sur 4 ans (SLA, revenus, équipes, volume d’activité et performance opérationnelle).
 
 ---
 
